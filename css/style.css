@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
+    list-style-type: none;
 }
 /* RESET */
 
@@ -62,3 +63,54 @@ h1{
     border: 1px solid #C4CBD0;
 }
 /* /BTN CONTAINER */
+
+
+.main-container{
+    height: 500px;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 3px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 15px 50px;
+}
+
+.tasks{
+    color: #434851;
+    margin: 10px 0px;
+    font-weight: 900;
+}
+
+.triangle{
+    /* vertical-align: middle; */
+    font-size: 15px;
+}
+
+.check{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    border-color: green;
+    color: green;
+    font-weight: 900;
+}
+
+.tag{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+}
+
+.task-content{
+    font-weight: bold;
+    color: #434851;
+}
