@@ -9,7 +9,7 @@
 /* RESET */
 
 body{
-    background-color: grey;
+    background-color: #F6F8F9;
     height: 100vh;
 }
 
@@ -78,7 +78,7 @@ h1{
 .tasks{
     color: #434851;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .triangle{
@@ -96,6 +96,7 @@ h1{
     line-height: 20px;
     font-size: 12px;
     font-weight: 600;
+    margin: 7px 7px 7px 0px;
 }
 
 .check{
@@ -108,6 +109,11 @@ h1{
     color: red;
 }
 
+.task-content{
+    font-weight: 500;
+    color: #434851;
+}
+
 .tag{
     display: inline-block;
     padding: 6px 12px;
@@ -115,7 +121,6 @@ h1{
     text-align: center;
     font-size: 12px;
     color: white;
-    margin: 7px 3px;
 }
 
 .azzurro{
@@ -140,11 +145,4 @@ h1{
 
 .lime{
     background-color: #A3D116;
-}
-
-
-
-.task-content{
-    font-weight: bold;
-    color: #434851;
 }
