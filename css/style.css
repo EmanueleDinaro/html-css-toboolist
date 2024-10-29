@@ -77,8 +77,8 @@ h1{
 
 .tasks{
     color: #434851;
-    margin: 10px 0px;
     font-weight: 900;
+    margin-top: 10px;
 }
 
 .triangle{
@@ -86,7 +86,7 @@ h1{
     font-size: 15px;
 }
 
-.check{
+.symbol{
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -95,9 +95,17 @@ h1{
     text-align: center;
     line-height: 20px;
     font-size: 12px;
+    font-weight: 600;
+}
+
+.check{
     border-color: green;
     color: green;
-    font-weight: 900;
+}
+
+.uncheck{
+    border-color: red;
+    color: red;
 }
 
 .tag{
@@ -106,9 +114,35 @@ h1{
     border-radius: 20px;
     text-align: center;
     font-size: 12px;
-    background-color: green;
     color: white;
+    margin: 7px 3px;
 }
+
+.azzurro{
+    background-color: #14AAF5;
+}
+
+.viola{
+    background-color: #ab5de6;
+}
+
+.verde{
+    background-color: #2CC6AB;
+}
+
+.arancione{
+    background-color: #FF9B00;
+}
+
+.fucsia{
+    background-color: #EC4A9D;
+}
+
+.lime{
+    background-color: #A3D116;
+}
+
+
 
 .task-content{
     font-weight: bold;
